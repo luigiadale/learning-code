@@ -18,3 +18,19 @@ p {
 #title {
     font-size: 100px;
 }
+
+.container {
+    background: rgb(36, 34, 34);
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    width: 30px;
+    height: 60px;
+    background-color: coral;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
