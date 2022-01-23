@@ -1,6 +1,7 @@
 body {
     background: rgb(240, 239, 247);
     font: 18px Arial, sans-serif;
+    margin: 0px;
 }
 
 .update-two {
@@ -8,7 +9,7 @@ body {
 }
 
 .update-one {
-color: rgb(14, 13, 13);
+    color: rgb(14, 13, 13);
 }
 
 p {
@@ -33,4 +34,65 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.name-one {
+    color: coral;
+}
+
+.name-two {
+    color: coral;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(36, 34, 34);
+    justify-content: space-between;
+}
+
+
+.side-box {
+    margin: 15px;
+}
+
+.navbar__links {
+    display: flex;
+}
+
+.navbar__link {
+    padding: 0.4em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    margin: 0.5em;
+    text-decoration: none;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: coral;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 0.4em;
+    transition: background-color 400ms ease;  ;
+}
+
+.navbar__link:hover {
+    background-color: white;
+}
+
+.navbar__logo {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    margin-left: 0.8em;
+}
+
+.intro {
+    margin: 10px;
+}
+
+.title-page {
+    font-size: 100px;
 }
