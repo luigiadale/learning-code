@@ -1,7 +1,9 @@
 body {
+    --paddingImage: 10px;
+    --size-absolute: calc(100% - (var(--paddingImage) * 2));
     background: rgb(240, 239, 247);
     font: 18px Arial, sans-serif;
-    margin: 0px;
+    margin: 0px; 
 }
 
 .update-two {
@@ -95,15 +97,31 @@ p {
 }
 
 .intro {
-    margin: 10px;
+    margin: 0.4rem;
 }
 
 .title-page {
     font-size: 100px;
+    margin: 0.4rem;
 }
 
 .third-day {
-    margin: 10px;
+    cursor: initial;
+    position: relative;
+}
+
+.absolute-text {
+    padding: var(--paddingImage);
+    background-color: rgba(255, 99, 71, 0.8);
+    width: var(--size-absolute);
+    height: var(--size-absolute);
+    position: absolute;
+    opacity: 0;
+    transition: opacity 400ms ease;
+}
+
+.absolute-text:hover {
+    opacity: 1;
 }
 
 .presentation {
@@ -115,7 +133,7 @@ p {
     display: flex;
     align-items: center;
     margin: 10px;
-    color: coral;
+    color: black;
 }
 
 .container-contact {
@@ -138,6 +156,7 @@ p {
     font-weight: bold;
     border-radius: 0.4em;
     transition: background-color 400ms ease;
+    cursor: pointer;
 }
 
 .contact:hover {
