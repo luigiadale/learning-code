@@ -36,6 +36,11 @@ p {
     align-items: center;
 }
 
+.item:hover {
+    background-color: white;
+    font-weight: bold;
+}
+
 .name-one {
     color: coral;
 }
@@ -75,7 +80,7 @@ p {
     text-transform: uppercase;
     font-weight: bold;
     border-radius: 0.4em;
-    transition: background-color 400ms ease;  ;
+    transition: background-color 400ms ease;
 }
 
 .navbar__link:hover {
@@ -95,4 +100,46 @@ p {
 
 .title-page {
     font-size: 100px;
+}
+
+.third-day {
+    margin: 10px;
+}
+
+.presentation {
+    display: flex;
+    align-items: center;
+}
+
+.presentation-text  {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    color: coral;
+}
+
+.container-contact {
+    background: white (36, 34, 34);
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    padding: 0.4em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    margin: 0.5em;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: coral;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 0.4em;
+    transition: background-color 400ms ease;
+}
+
+.contact:hover {
+    background-color: black;
 }
